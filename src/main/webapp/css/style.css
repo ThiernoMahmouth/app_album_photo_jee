@@ -1,0 +1,62 @@
+.mediaViewInfo {
+    --web-view-name: Login;
+    --web-view-id: Login;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: hero;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Open Sans', serif;
+}
+
+#hero {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    padding: 50px 30px;
+    margin-top: 5%;
+}
+#hero h1 {
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+input {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #B9CDE9;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: #495466;
+    outline: none;
+}
+input::focus {
+    border: 1px solid #B9CDE9;
+}
+#primary-button {
+    background-color: #5C81FF;
+      padding: 14px 20px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    width: 80%;
+}
+#primary-button:hover {
+    background-color: #4461C4;
+}
+label {
+    text-align: left !important;
+    color: #B8BDC6;
+    font-size: 14px;
+}

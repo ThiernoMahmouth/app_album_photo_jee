@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ajouter une image</title>
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="css/style.css">
+<style>
+	body {
+     background-color: #F7F7F7;
+	}
+</style>
+</head>
+<body>
+    <div id="hero">
+        <h1>Ajouter une image</h1>
+        <center>
+            <form action="post">
+                <input type="text" name="title" id="title" placeholder="Titre"><br/>
+                <label for="cars">Choisissez l'album</label>
+
+                <select name="cars" id="cars">
+                <option value="volvo">Vacances</option>
+                <option value="saab">Sport</option>
+                <option value="mercedes">Paysage</option>
+                <option value="audi">Portraits</option>
+                </select>
+                <br/>
+
+                <label for="image">Importez une photo:</label>
+
+                <input type="file"
+                    id="image" name="image"
+                    accept="image/png, image/jpeg, image/jpg">
+
+                <button type="submit" id="primary-button">Ajouter</button>
+            </form>
+        </center>
+    </div>
+</body>
+</html>
